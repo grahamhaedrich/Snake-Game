@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="display">
+      <div id="title">SNAKE</div>
+      <div id="select">SELECT DIFFICULTY</div>
+      <div class="difficulties">
+        <button type="button" id="easy" onclick="getDifficulty(1)">EASY</button>
+        <button type="button" id="medium" onclick="getDifficulty(2)">MEDIUM</button>
+        <button type="button" id="hard" onclick="getDifficulty(3)">HARD</button>
+        <button type="button" id="expert" onclick="getDifficulty(4)">EXPERT</button>
+        <button type="button" id="god" onclick="getDifficulty(5)">GOD</button>
+      </div>
+    </div>
+    <canvas id="game" width="900" height="900"></canvas>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+body {
+  background-color: green;
+}
+
+#title {
+  margin: auto;
+  font-size: 200px;
+  font-family: "Copperplate", monospace;
+  text-align: center;
+}
+
+#select {
+  padding-top: 50px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.difficulties {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+#easy {
+  margin-right: 20px;
+  height: 60px;
+  width: 100px;
+  color: white;
+  background-color: green;
+}
+
+#medium {
+  margin-right: 20px;
+  height: 60px;
+  width: 100px;
+  color: white;
+  background-color: orange;
+}
+
+#hard {
+  margin-right: 20px;
+  height: 60px;
+  width: 100px;
+  color: white;
+  background-color: red;
+}
+
+#expert {
+  margin-right: 20px;
+  height: 60px;
+  width: 100px;
+  color: white;
+  background-color: DarkRed;
+}
+
+#god {
+  margin-right: 20px;
+  height: 60px;
+  width: 100px;
+  color: white;
+  background-color: black;
+}
